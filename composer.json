@@ -1,5 +1,5 @@
 {
-  "name" : "genkgo/camt",
+  "name" : "pioneermedia/camt",
   "description": "Library to read CAMT files (XML containing bank statements). Currently only CAMT.053 is supported.",
   "require" : {
     "php" : ">=5.5",
