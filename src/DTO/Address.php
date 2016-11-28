@@ -102,6 +102,14 @@ class Address
     {
         return $this->addressLines;
     }
+    
+    /**
+     * @return string
+     */
+    public function getAddressLine($line = 0)
+    {
+        return $this->addressLines[$line];
+    }
 
     /**
      * @param  array $addressLines
